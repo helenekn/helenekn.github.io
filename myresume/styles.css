@@ -1,0 +1,63 @@
+body {
+    font-family: 'Montserrat';
+}
+
+/* maine styles */
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #E5E5E5;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* main-content styles */
+.main-content {
+    background-color: #FFFFFF;
+    width: 800px;
+    padding: 20;
+}
+
+.project-title {
+    font-size: 45px;
+    color: rgb(170, 170, 235);
+    padding: 60px;
+}
+
+/* about styles */
+.about {
+    background-color: rgb(238, 238, 148);
+    padding-left: 100px;
+  }
+
+/* projects styles */
+.projects {
+    background: rgb(157, 211, 227);
+    /* margin-top: 0px;
+    margin-bottom: 300px;
+    margin-left: 60px;
+    margin-right: 90px; */
+    padding: 60px;
+}
+
+/* work styles */
+.work {
+    background: rgb(240, 222, 242);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 60px;
+    padding-right: 40px;
+}
+
+/* education styles */
+.education {
+    background-color: rgb(154, 236, 236);
+    padding: 60px;
+}
+
+/* sidebar */
+.sidebar {
+    background-color: #e90b5280;
+     width: 380px;
+     padding: 30px;
+}
