@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/myresume/styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
     <title>My resume</title>
 </head>
 <body>
@@ -23,52 +23,54 @@
             </div>
             <!--projects-->
             <div class="projects">
-                <h3>Projects</h3>
-
-                <ol>
-                    <li>
-                        <a href="https://hellenglish.goit.global/">https://hellenglish.goit.global/</a>
-                        ........
-                        [ HTML5, CSS3 ]
+                <h3 class="title">
+                    Projects
+                </h3>
+                <ol class="project-list">
+                    <li class="project-item">
+                        <span class="project">
+                        <a href="https://hellenglish.goit.global/" class="project-link">https://hellenglish.goit.global/</a>
+                        ...........
+                        <span class="span-bracket">[</span> HTML5, CSS3 <span class="span-bracket">]</span>
+                        </span>
                     </li>
-                    <li>
-                        <a href="https://cryptohub.goit.global/">https://cryptohub.goit.global/</a>
-                        ........
-                        [ JavaScript ]
+                    <li class="project-item">
+                        <span class="project">
+                        <a href="https://cryptohub.goit.global/" class="project-link">https://cryptohub.goit.global/</a>
+                        .............
+                        <span class="span-bracket">[</span> JavaScript <span class="span-bracket">]</span>
+                        </span>
                     </li>
-                    <li>
-                        <a href="https://kidslike.goit.global/">https://kidslike.goit.global/</a>
-                        ..........
-                        [ React.js, Node.js ]
+                    <li class="project-item">
+                        <span class="project">
+                        <a href="https://kidslike.goit.global/" class="project-link">https://kidslike.goit.global/</a>
+                        ....................
+                        <span class="span-bracket">[</span> React.js, Node.js <span class="span-bracket">]</span>
+                        </span>
                     </li>
                 </ol>
             </div>
             <!--work-->
             <div class="work">
-                <h3>Work Experience</h3>
+                <h3 class="title">Work Experience</h3>
                 <!--company1-->
                 <div>
-                    <h4>Региональный менеджер в <a href="https://www.teplo-polis.com.ua/">"Тепло-Полис"</a></h4>
-                    <h5>Январь 2016 - ...   |   Харьков</h5>
-                    <ul>
-                        <li>Инженерно-техническое продвижение 
-                            <br> теплообменного оборудования.</li>
-                        <li>Анализ и планирование продаж, расширение 
-                            <br> рынка сбыта.</li>
-                        <li>Ведение переговоров с потенциальными 
-                            <br> заказчиками.</li>
+                    <h4 class="work-position">Региональный менеджер в <a href="https://www.teplo-polis.com.ua/" class="organization" style="padding-left: 7px">"Тепло-Полис"</a></h4>
+                    <h5 class="period">Январь 2016 - ...   |   Харьков</h5>
+                    <ul class="work-list">
+                        <li>Инженерно-техническое продвижение теплообменного оборудования.</li>
+                        <li>Анализ и планирование продаж, расширение рынка сбыта.</li>
+                        <li>Ведение переговоров с потенциальными заказчиками.</li>
                         <li>Сопровождение сделок, внутренняя отчетность.</li>
-                        <li>Тепло-технические расчёты теплообменного 
-                            <br> оборудования.</li>
-                        <li>Участие в тендерах.</li>
-                        
+                        <li>Тепло-технические расчёты теплообменного оборудования.</li>
+                        <li>Участие в тендерах.</li>                 
                     </ul>
                 </div>
                 <!--company2-->
                 <div>
-                    <h4>Менеджер по продажам, оргтехника, ФОП</h4>
-                    <h5>Апрель 2004 - Июнь 2006   |   Харьков</h5>
-                    <ul>
+                    <h4 class="work-position">Менеджер по продажам, оргтехника, <span class="organization">ФОП Кисельников</span></h4>
+                    <h5 class="period">Апрель 2004 - Июнь 2006   |   Харьков</h5>
+                    <ul class="work-list">
                         <li>Расширение рынка сбыта.</li>
                         <li>Участие в тендерах, заключение договоров.</li>
                         <li>Активные продажи.</li>
@@ -77,9 +79,9 @@
                 </div>
                 <!--company3-->
                 <div>
-                    <h4>Менеджер по продажам в ЧНПП «Синт -Харьков»</h4>
-                    <h5>Март 2003 - Апрель 2004   |   Харьков</h5>
-                    <ul>
+                    <h4 class="work-position">Менеджер по продажам в <span class="organization">ЧНПП «Синт -Харьков»</span></h4>
+                    <h5 class="period">Март 2003 - Апрель 2004   |   Харьков</h5>
+                    <ul class="work-list">
                         <li>Поиск новых клиентов, работа с клиентской базой.</li>
                         <li>Участие в тендерах, заключение договоров.</li>
                         <li>Выполнения плана продаж.</li>
@@ -89,23 +91,23 @@
             </div>  
             <!--education-->
             <div class="education">
-                <h3>Education</h3>
-                <h4>Национальный аэрокосмический университет 
+                <h3 class="title">Education</h3>
+                <h4 class="organization">Национальный аэрокосмический университет 
                     <br> им. Н.Е. Жуковского, "ХАИ"</h4>
-                <h4>Инженер-технолог</h4>
-                <h5>Сентябрь 1997 - Февраль 2003   |   Харьков</h5>
+                <h4 class="work-position">Инженер-технолог</h4>
+                <h5 class="period">Сентябрь 1997 - Февраль 2003   |   Харьков</h5>
             
                 <div>
-                    <h3>Education&Certifications</h3>
+                <br>
+                <h3 class="title">Education&Certifications</h3>
                     
-                    <ul>
+                    <ul class="work-list">
                         <li>Основы программирования на Python / Coursera</li>
                         <li>Python: основы и программирования / Stepik</li>
                         <li>Программирование на Python / Stepik</li>
                         <li>Django / Stepik</li>
                         <li>HTML/CSS / Udemy</li>
                         <li>Английский - Intermediate</li>
-                        
                     </ul>
                    
                 </div>
@@ -115,45 +117,45 @@
         </div>
         <!--sidebar-->
         <iside class="sidebar">
-            <img src="/myresume/myphoto.jpg" alt="Тут должно быть фото" width="400">
-            <br>
-            <br>
+            <img src="img/myphoto.jpg" alt="Тут должно быть фото" class="photo">
+          
             <!--contact-->
-            <div>
-                <h3>Контакты</h3>
+            <div class="contacts">
+                <h3 class="sidebar-title">Контакты</h3>
                 <div>
                     <p>
-                        C: <a href="tel:+380984395760">+38 098 439 57 60</a>
+                        <span class="contact-type">C:</span><a href="tel:+380984395760" class="contact-link">+38 098 439 57 60</a>
                     </p>  
                     <p>
-                        E: <a href="redkina2508@gmail.com">redkina2508@gmail.com</a>    
+                        <span class="contact-type">E:</span><a href="redkina2508@gmail.com" class="contact-link">redkina2508@gmail.com</a>    
                     </p>
                 </div>
             </div>
-            <br>
-            <br>
+            
             <!--tech skills--> 
-            <div>
-                <h3>Tech Skills</h3>
-                <ul>
-                    <li>Python</li>
-                    <li>Django</li>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>GIT</li>
-                    <li>JavaScript</li>
+            <div class="tech-skills">
+                <h3 class="sidebar-title">Tech Skills</h3>
+                <ul class="tech-skills-list">
+                    <li class="tech-skills-item"><span class="tech-skills-text">Python</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">Django</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">HTML5</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">CSS3</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">GIT</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">JavaScript</span></li>
                 </ul>
             </div>  
             <!--soft skill--> 
-            <br>
-            <br>
-            <div>
-                <h3>Soft Skills</h3>
-                <ul>
-                    <li>Креативность и находчивость</li>
-                    <li>Желание обучаться и развиваться</li>
-                    <li>Стрессоустойчивость</li>
-                    <li>Умение работать в команде</li>
+            
+            <div class="soft-skills">
+                <h3 class="sidebar-title">Soft Skills</h3>
+                <ul class="soft-skills-list">
+                    <li class="soft-skills-item"><span class="soft-skills-text">Креативность и находчивость</span></li>
+                    <li class="soft-skills-item"><span class="soft-skills-text">Желание обучаться и развиваться</span></li>
+                    <li class="soft-skills-item"><span class="soft-skills-text">Стрессоустойчивость</span></li>
+                    <li class="soft-skills-item"><span class="soft-skills-text">Умение работать в команде</span></li>
+
+
+
                 </ul>
             </div>
         </iside>
