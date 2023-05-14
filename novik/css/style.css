@@ -1,0 +1,228 @@
+@import url("./_vars.css");
+
+html,
+body {
+   font-size: 18px;
+   font-family: "Open Sans", sans-serif;
+   margin: 0;
+   color: var(--main-font-color);
+   margin: 0 auto;
+}
+
+* {
+   margin: 0;
+}
+
+.header {
+   padding: 28px 0 0;
+}
+
+.container {
+   max-width: 970px;
+   margin: 0 auto;
+   /* border: solid; */
+}
+
+ul {
+   padding-left: 0;
+   text-align: center;
+}
+
+li {
+   display: inline-block;
+   margin: 0 20px;
+}
+
+a {
+   position: relative;
+   text-decoration: none;
+   color: var(--add-font-color);
+}
+
+a:hover::before {
+   position: absolute;
+   content: "";
+   left: 0;
+   bottom: -1px;
+   width: 100%;
+   height: 2px;
+   background-color: blue;
+}
+
+.nav {
+   padding: 28px 0;
+   border-bottom: 1px solid var(--add-font-color);
+}
+
+.first_screen_title {
+   margin-top: 12px;
+   margin-bottom: 50px;
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 1.3;
+   text-align: left;
+}
+
+.first_screen_photo {
+   display: block;
+   height: 387px;
+   width: 100%;
+}
+
+.about_me,
+.portfolio {
+   background: var(--background-add);
+   padding: 100px 0;
+}
+
+.about_me_subtitle,
+.skills_subtitle,
+.portfolio_subtitle,
+.footer_subtitle {
+   margin: 0 auto;
+   padding-bottom: 50px;
+   font-weight: 700;
+   font-size: 34px;
+   line-height: 1.3;
+   text-align: center;
+}
+
+.about_me_text,
+.skills_text,
+.footer_text {
+   /* max-width: 480px; */
+   margin: 0 auto;
+   font-weight: 400;
+   font-size: 18px;
+   text-align: center;
+}
+
+.about_me_text p {
+   padding-bottom: 30px;
+}
+
+.about_me_text p:last-of-type {
+   padding-bottom: 0;
+}
+
+.heading {
+   padding: 100px 0 50px;
+}
+
+.skills_subtitle,
+.footer_subtitle {
+   padding-bottom: 20px;
+}
+
+.product_list {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-bottom: 100px;
+}
+
+.product_item {
+   width: 170px;
+   height: 230px;
+}
+
+.product_img {
+   display: block;
+   margin: 0 auto;
+}
+
+.product_title {
+   margin: 0 auto;
+   max-width: 90px;
+   min-height: 38px;
+   padding: 25px 0 60px;
+   text-align: center;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 1.4;
+}
+
+.product_rating {
+   min-width: 170px;
+   text-align: center;
+}
+
+.pages_item:first-of-type,
+.pages_item:nth-of-type(2) {
+   margin-bottom: 70px;
+}
+
+.pages_img {
+   display: block;
+   margin: 0 auto;
+}
+
+.pages_descr {
+   margin-top: 40px;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 1.4;
+   text-align: center;
+   -webkit-text-decoration-line: underline;
+   text-decoration-line: underline;
+}
+
+.footer {
+   margin: 100px auto;
+}
+
+.footer_heading {
+   padding-bottom: 60px;
+   max-width: 280px;
+   margin: 0 auto;
+}
+
+.footer_media {
+   width: 310px;
+   margin: 0 auto;
+}
+
+button {
+   width: 180px;
+   height: 44px;
+   background: var(--main-font-color);
+   border-radius: 22px;
+   color: #ffffff;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 1.4;
+   text-align: center;
+}
+
+.button {
+   padding: 0 65px 30px;
+}
+
+.social_grout {
+   display: flex;
+   justify-content: space-between;
+}
+
+.social_icon {
+   width: 40px;
+   height: 40px;
+}
+
+.footer_link {
+   margin: 0 auto;
+   padding-top: 60px;
+   max-width: 200px;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1.4;
+   text-align: center;
+   color: var(--add-font-color);
+}
+
+.social_icon {
+   position: relative;
+}
+
+.social_icon:hover {
+   background-color: blueviolet;
+}
