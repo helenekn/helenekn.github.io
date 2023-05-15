@@ -185,7 +185,7 @@ a:hover::before {
 button {
    width: 180px;
    height: 44px;
-   background: var(--main-font-color);
+   background: #070707;
    border-radius: 22px;
    color: #ffffff;
    font-weight: 700;
